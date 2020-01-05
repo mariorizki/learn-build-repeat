@@ -27,9 +27,13 @@ body {
 .text {
   position: absolute;
   text-align: center;
-  width: 50%;
   z-index: 1;
 }
 
 h1 {
+  font-size: 3em;
+}
+
+h1:hover {
+  color: whitesmoke;
 }
