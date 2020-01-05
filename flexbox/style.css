@@ -5,13 +5,31 @@ body {
 
 .container {
   display: flex;
-  justify-content: space-around;
-  flex-direction: column;
+  justify-content: center;
   align-items: center;
 }
 
 .box {
-  height: 20em;
-  width: 16em;
-  border: 1px solid black;
+  height: 100vh;
+  width: 50%;
+}
+
+.box.box1 {
+  background-color: rgba(233, 41, 7, 0.808);
+  position: relative;
+}
+
+.box.box2 {
+  background-color: rgba(216, 216, 16, 0.945);
+  position: relative;
+}
+
+.text {
+  position: absolute;
+  text-align: center;
+  width: 50%;
+  z-index: 1;
+}
+
+h1 {
 }
