@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #1e1e1e;
+  color: white;
+}
+
+.logo {
+  margin-left: 1em;
+}
+
+.logo:hover {
+  color: wheat;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  margin-right: 1em;
+}
+
+.menu {
+  list-style: none;
+  margin: 0 1em;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
